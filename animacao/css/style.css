@@ -1,0 +1,120 @@
+body{
+    background: url('/image/cenario.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#pikachu{
+
+width: 200px;
+position: absolute;
+top: 680px;
+left: 0%;
+animation: run 6s infinite ease-out;
+
+}
+
+
+
+#nuven{
+
+width: 200px;
+position: absolute;
+top: 0px;
+right: 80px;
+animation: motion 70s infinite ease-out;
+
+
+}
+
+@keyframes run{
+
+    0%{
+
+        top: 680px;
+        left: 0%;
+
+
+    }
+
+    10%{
+        top: 680px;
+        left: 10%;
+    }
+
+    20%{
+        top: 680px;
+        left: 20%;
+    }
+
+    25%{
+
+        top: 680px;
+        left: 30%;
+
+    }
+    28%{
+        top: 680px;
+        left: 35%;
+
+    }
+
+    30%{
+
+        top: 550px;
+
+
+    }
+
+    35%{
+
+        top: 550px;
+
+    }
+
+    40%{
+        top: 550px;
+
+    }
+
+
+
+    52%{
+
+        top: 680px;
+        left: 50%;
+    }
+
+
+        100%{
+
+        top: 680px;
+        left: 110%;
+
+
+
+        }
+
+
+    
+}
+
+
+@keyframes motion{
+
+    0%{
+        top: 0px;
+        right: 80px;
+
+    }
+
+    100%{
+
+        top: 0px;
+        right: 1900px;
+    }
+
+
+}
+
